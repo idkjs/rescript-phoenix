@@ -1,0 +1,44 @@
+{
+  "name": "bucklescript-phx",
+  "description": "BuckleScript binding for Phoenix Channel/Presence to Phoenix's official JavaScript client",
+  "author": "JackalCooper",
+  "version": "0.1.4",
+  "scripts": {
+    "start": "brunch watch --server",
+    "build": "brunch build --production",
+    "build:bsb": "bsb -make-world",
+    "watch": "bsb -make-world -w",
+    "clean": "bsb -clean-world"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/phoenix-china/bucklescript-phx.git"
+  },
+  "keywords": [
+    "TEA",
+    "Bucklescript",
+    "OCaml",
+    "Phoenix"
+  ],
+  "license": "LGPLv3",
+  "bugs": {
+    "url": "https://github.com/phoenix-china/bucklescript-phx/issues"
+  },
+  "homepage": "https://github.com/phoenix-china/bucklescript-phx#readme",
+  "dependencies": {
+    "phoenix": "*"
+  },
+  "peerDependencies": {
+    "bs-platform": "*"
+  },
+  "devDependencies": {
+    "@glennsl/bs-json": "^5.0.2",
+    "auto-reload-brunch": "^2.7.1",
+    "brunch": "^3.0.0",
+    "bs-fetch": "^0.6.2",
+    "bs-platform": "8.4.2",
+    "clean-css-brunch": "^3.0.0",
+    "reason-react": "^0.9.1",
+    "uglify-js-brunch": "^2.10.0"
+  }
+}

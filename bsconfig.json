@@ -1,0 +1,29 @@
+{
+  "name": "bucklescript-phx",
+  "version": "0.0.1",
+  "bsc-flags": [ "-bs-cross-module-opt", "-bs-super-errors" ],
+  "reason": { "react-jsx": 3 },
+  "sources": [
+    {
+      "dir": "src",
+      "subdirs": true
+    },
+    {
+      "dir": "example",
+      "subdirs": true,
+      "dev": true
+    }
+  ],
+  "package-specs": [
+    { "module": "commonjs" },
+    {
+      "module": "es6",
+      "in-source": true
+    }
+  ],
+  "suffix": ".bs.js",
+  "namespace": true,
+  "bs-dependencies": [ "reason-react", "@glennsl/bs-json","bs-fetch" ],
+  "ppx-flags": [],
+  "refmt": 3
+}
