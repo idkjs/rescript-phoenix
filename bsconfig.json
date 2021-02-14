@@ -23,7 +23,8 @@
   ],
   "suffix": ".bs.js",
   "namespace": true,
-  "bs-dependencies": [ "reason-react", "@glennsl/bs-json","bs-fetch" ],
+  "bs-dependencies": ["@glennsl/bs-json","bs-fetch" ],
+  "bs-dev-dependencies": [ "@rescript/react"],
   "ppx-flags": [],
   "refmt": 3
 }
