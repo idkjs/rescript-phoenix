@@ -1,5 +1,5 @@
 {
-  "name": "bucklescript-phx",
+  "name": "rescript-phoenix",
   "description": "BuckleScript binding for Phoenix Channel/Presence to Phoenix's official JavaScript client",
   "author": "JackalCooper",
   "version": "0.1.4",
