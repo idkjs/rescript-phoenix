@@ -1,5 +1,5 @@
 {
-  "name": "bucklescript-phx",
+  "name": "rescript-phoenix",
   "version": "0.0.1",
   "bsc-flags": [ "-bs-cross-module-opt", "-bs-super-errors" ],
   "reason": { "react-jsx": 3 },
